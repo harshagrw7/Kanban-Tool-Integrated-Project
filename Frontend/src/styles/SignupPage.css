@@ -1,0 +1,113 @@
+.signup-heading{
+    position: relative;
+    border-left: 2px solid #111;
+    color: rgb(130, 163, 252);
+    margin-left: 1em;
+    padding: .5em;
+}
+.sign-up-form{
+    position: relative;
+    width: 50%;
+    margin: auto;
+    padding: 1em;
+    margin-top: 3em;
+}
+.sign-up-form label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sign-up-form input{
+    width: 95%;
+    margin-bottom: 1em;
+    margin-top: .5em;
+    border: 1px solid #111;
+    border-radius: 5px;
+    padding: 1em;
+    transition: .2s ease-in-out;
+}
+.sign-up-form input:focus{
+    transform: scale(1.1);
+}
+.sign-up-form button{
+    position: relative;
+    text-align: right;
+    background: transparent;
+    border: 0.1em solid rgb(130, 163, 252);
+    float: right;
+    padding: 1em 2em;
+    margin-top: 2em;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+    color: rgb(130, 163, 252);
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+
+}
+.sign-up-form button:hover{
+    border: none;
+    color: #fff;
+    background: rgb(130, 163, 252);
+}
+p{
+    color: red;
+    font-weight: bold;
+}
+@media screen and (max-width:980px){
+    .signup-heading{
+        margin-left: 1em;
+    }
+    .sign-up-form{
+        position: relative;
+        width: 90%;
+        margin: auto;
+        padding: 1em;
+        margin-top: 3em;
+    }
+    .sign-up-form input{
+        width: 95%;
+        margin-bottom: 1em;
+        margin-top: .5em;
+        border: 1px solid #111;
+        border-radius: 5px;
+        padding: 1em;
+        transition: .2s ease-in-out;
+    }
+    .sign-up-form button{
+        padding: 1em 2em;
+        margin-top: 2em;
+        border-radius: 5px;
+        width: 50%;
+    
+    }   
+}
+@media screen and (max-width:400px){
+    .signup-heading{
+        margin-left: .3em;
+        padding: .1em;
+    }
+    .sign-up-form{
+        position: relative;
+        width: 90%;
+        margin: auto;
+        padding: 1em;
+        margin-top: 3em;
+    }
+    .sign-up-form input{
+        width: 95%;
+        margin-bottom: 1em;
+        margin-top: .5em;
+        border: 1px solid #111;
+        border-radius: 5px;
+        padding: .5em;
+        transition: .2s ease-in-out;
+    }
+    .sign-up-form button{
+        float: right;
+        padding: 1em 2em;
+        margin-top: 2em;
+        border-radius: 5px;
+        width: 100%;
+    
+    }   
+}

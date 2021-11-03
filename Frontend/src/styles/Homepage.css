@@ -1,0 +1,80 @@
+body{
+    overflow-x: hidden;
+}
+.header{
+    position: relative;
+    width: 100%;
+    background: #555;
+    display: flex;
+    padding: 0em 1em;
+    justify-content:space-between;
+}
+.header .nav-items{
+    position: relative;
+    padding: 1.2em;
+    margin-right: 2em;
+}
+.header .link-btn-login,.link-btn-sign-up{
+    position: relative;
+    background: transparent;
+    border: none;
+    color: #fff;
+    margin: auto 1em;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+.header .link-btn-login:hover,.link-btn-sign-up:hover{
+   border-bottom: 0.1em solid #fff ;
+   font-size: 1em;
+   transition: 1s ease-out;
+}
+.page-container{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.button-container{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 50%;
+}
+.sign-up-btn{
+    position: relative;
+    width: 40%;
+    padding: .5em 2em;
+    margin-top: 2em;
+    background: #111;
+    border-radius: 5px;
+    border: 0.1em solid #fff;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.login-btn{
+    position: relative;
+    width: 40%;
+    padding: .5em 2em;
+    margin-top: 2em;
+    background: transparent;
+    border-radius: 5px;
+    border: 0.1em solid #111;
+    color: #111;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    cursor: pointer;
+}
+.button-home{
+    position: relative;
+    background: transparent;
+    color: #fff;
+    font-size: 1.5em;
+    border: none;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    cursor: pointer;
+}

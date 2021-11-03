@@ -1,0 +1,138 @@
+.project-form-heading{
+    position: relative;
+    border-left: 2px solid #111;
+    color: rgb(130, 163, 252);
+    margin-left: 1em;
+    padding: .5em;
+}
+.create-project-form{
+    position: relative;
+    width: 50%;
+    margin: auto;
+    padding: 1em;
+    margin-top: 3em;
+}
+.create-project-form h3{
+    text-align: right;
+}
+.create-project-form label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.create-project-form input{
+    width: 95%;
+    margin-bottom: 1em;
+    margin-top: .5em;
+    border: 1px solid #111;
+    border-radius: 5px;
+    padding: 1em;
+    transition: .2s ease-in-out;
+}
+.create-project-form input:focus{
+    transform: scale(1.1);
+}
+.action-btn-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+.create-project-form .cancel-btn{
+    position: relative;
+    background: transparent;
+    border: 0.1em solid rgb(130, 163, 252);
+    padding: 1em 2em;
+    border-radius: 5px;
+    width: 45%;
+    text-align: center;
+    color: rgb(130, 163, 252);
+    font-weight: bold;
+    cursor: pointer;
+}
+.create-project-form .submit-btn{
+    position: relative;
+    background: rgb(130, 163, 252);
+    border: 0.1em solid rgb(130, 163, 252);
+    padding: 1em 2em;
+    border-radius: 5px;
+    width: 45%;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.select-state{
+    width: 95%;
+    margin-bottom: 1em;
+    margin-top: .5em;
+    border: 1px solid #111;
+    border-radius: 5px;
+    padding: 1em;
+}
+.select-state:focus{
+    transform: scale(1.1);
+}
+@media screen and (max-width:980px){
+    .project-form-heading{
+        margin-left: 1em;
+    }
+    .create-project-form{
+        position: relative;
+        width: 90%;
+        margin: auto;
+        padding: 1em;
+        margin-top: 3em;
+    }
+    .create-project-form input{
+        width: 95%;
+        margin-bottom: 1em;
+        margin-top: .5em;
+        border: 1px solid #111;
+        border-radius: 5px;
+        padding: 1em;
+        transition: .2s ease-in-out;
+    }
+    .create-project-form button{
+        padding: 1em 2em;
+        margin-top: 2em;
+        border-radius: 5px;
+        width: 50%;
+    
+    }   
+}
+@media screen and (max-width:530px){
+    .project-form-heading{
+        margin-left: .3em;
+        padding: .1em;
+    }
+    .create-project-form{
+        position: relative;
+        width: 90%;
+        margin: auto;
+        padding: 1em;
+        margin-top: 3em;
+    }
+    .create-project-form input{
+        width: 95%;
+        margin-bottom: 1em;
+        margin-top: .5em;
+        border: 1px solid #111;
+        border-radius: 5px;
+        padding: .5em;
+        transition: .2s ease-in-out;
+    }
+    .action-btn-container{
+        display: block;
+        width: 100%;
+        margin-top: 1em;
+    }
+    .create-project-form .cancel-btn{
+        padding: 1em 2em;
+        border-radius: 5px;
+        width: 100%;
+    }
+    .create-project-form .submit-btn{
+        padding: 1em 2em;
+        border-radius: 5px;
+        width: 100%;
+    }  
+}

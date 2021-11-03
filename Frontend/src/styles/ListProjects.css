@@ -1,0 +1,80 @@
+.project-list-heading{ 
+    position: relative;
+    border-left: 2px solid #111;
+    color: rgb(130, 163, 252);
+    margin-left: 1em;
+    padding: .5em;
+}
+.add-project{
+    position: relative;
+    text-align: right;
+    background: transparent;
+    border: 0.1em solid rgb(130, 163, 252);
+    float: right;
+    padding: 1em 2em;
+    margin-top: 2em;
+    margin-right: 5em;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+    color: rgb(130, 163, 252);
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+
+} 
+.col-sm{
+    position: relative;
+    display: inline-flex;
+    text-align: center;
+    width: calc(45% - 0px);
+    padding: 1em;
+    border: 1px dashed #111;
+    justify-content: center;
+    margin: 1em;
+    margin-top: 2em;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+.col-sm .delete{
+    position: relative;
+    background: transparent;
+    border: 0.1em solid rgb(130, 163, 252);
+    padding: .5em;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+    color: rgb(130, 163, 252);
+    font-weight: bold;
+    cursor: pointer;
+    margin: .1em auto;
+}
+.col-sm .update{
+    position: relative;
+    background: rgb(130, 163, 252);
+    border: 0.1em solid rgb(130, 163, 252);
+    padding: .5em;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 1em auto;;
+}
+.add-project:hover{
+    border: none;
+    color: #fff;
+    background: rgb(130, 163, 252);
+}
+.dashboard-btn{
+    position: relative;
+    margin: 2em 3em;
+    padding: .5em 2em;
+    background: #555;
+    border: 1px solid #111;
+    border-radius: 5px;
+    color: #fff;
+}
